@@ -1,0 +1,15 @@
+// 这个文件用于创建全局样式
+html,body,main{
+  height: 100%;
+};
+// 设置表头样式;由于表头也是动态生成的，所以样式加在当前页里并不奏效，解决方案：要么把当前页的scope去掉，要么加在全局样式less里面
+.el-table thead tr{
+  background-color: #c5cbd1;
+}
+ [class^=el-icon-]{
+   color: #888;
+   color:rgba(0,0,0,.3);
+   &.active{
+     color: #000;
+   }
+ }

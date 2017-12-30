@@ -1,0 +1,15 @@
+html,
+body,
+main {
+  height: 100%;
+}
+.el-table thead tr {
+  background-color: #c5cbd1;
+}
+[class^=el-icon-] {
+  color: #888;
+  color: rgba(0, 0, 0, 0.3);
+}
+[class^=el-icon-].active {
+  color: #000;
+}
